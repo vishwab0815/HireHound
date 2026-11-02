@@ -1,0 +1,24 @@
+{
+  "_note": "Prepared answers to common application questions, in your own words. The bot uses them as a base and rewrites them per job. Copy to config/answers.json (it is git-ignored).",
+
+  "salaryExpectation": "As per industry standards",
+  "startDate": "Immediate",
+  "howDidYouHear": "I found this opening while actively looking for roles in my field.",
+  "whyThisCompany": "Why roles like this one interest you, in two or three sentences.",
+  "strengths": "Two or three real strengths, with a short example.",
+  "weaknesses": "An honest weakness and what you are doing about it.",
+  "careerGoals": "Where you want to grow over the next few years.",
+  "teamwork": "How you work with others, with a concrete example.",
+  "nightShift": "No, I am not available for night shifts.",
+  "weekendWork": "Not decided - leave the site's default selection.",
+  "laptopAndInternet": "Yes, I have a working laptop and reliable internet.",
+
+  "_toFill": {
+    "_note": "Fill these in if forms ask for them:",
+    "hasDisability": "No",
+    "openToTravel": "Yes, occasionally",
+    "hasVehicle": "",
+    "maritalStatus": "",
+    "dateOfBirth": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "sites": [
+    {
+      "name": "LinkedIn",
+      "searchUrls": [
+        "https://www.linkedin.com/jobs/search/?keywords=ai+engineer&location=India&f_WT=2",
+        "https://www.linkedin.com/jobs/search/?keywords=ml+engineer&location=India&f_WT=2",
+        "https://www.linkedin.com/jobs/search/?keywords=data+engineer&location=India&f_WT=2"
+      ],
+      "type": "linkedin",
+      "instructions": "Use Easy Apply when available. Skip jobs without Easy Apply. Fill all required fields using profile data. Upload resume when prompted.",
+      "enabled": false
+    },
+    {
+      "name": "Naukri",
+      "searchUrls": [
+        "https://www.naukri.com/ai-engineer-jobs",
+        "https://www.naukri.com/ml-engineer-jobs",
+        "https://www.naukri.com/data-engineer-jobs",
+        "https://www.naukri.com/python-developer-jobs"
+      ],
+      "type": "job_board",
+      "instructions": "1. Browse job listings on the search results page. 2. Click each job to view details. 3. Verify the job is relevant (AI, ML, Data Engineering, Python). 4. Click 'Apply' or 'Easy Apply'. 5. Fill all required form fields using profile data. 6. For open-ended questions, generate a personalized response based on the job description. 7. Upload resume when prompted. 8. Confirm submission. 9. Return to the list and repeat for the next job.",
+      "enabled": false
+    },
+    {
+      "name": "Internshala",
+      "searchUrls": [
+        "https://internshala.com/jobs/ai-engineer-jobs/",
+        "https://internshala.com/jobs/machine-learning-jobs/",
+        "https://internshala.com/jobs/data-science-jobs/",
+        "https://internshala.com/jobs/python-developer-jobs/",
+        "https://internshala.com/internships/artificial-intelligence-ai-internship/"
+      ],
+      "type": "job_board",
+      "instructions": "1. Browse job/internship listings on results page. 2. Click each listing to view details. 3. Check if the job is relevant for AI/ML/Data Science/Python. 4. Click 'Apply Now'. 5. Fill all fields with profile data. 6. Write cover letter if required. 7. Upload resume. 8. Submit application. 9. Go back and repeat.",
+      "enabled": true
+    },
+    {
+      "name": "Indeed India",
+      "searchUrls": [
+        "https://in.indeed.com/jobs?q=ai+engineer&l=remote",
+        "https://in.indeed.com/jobs?q=data+engineer&l=remote"
+      ],
+      "type": "job_board",
+      "instructions": "Look for jobs with 'Quick Apply' or 'Easy Apply'. Fill application forms and upload resume when prompted.",
+      "enabled": false
+    },
+    {
+      "name": "Wellfound (AngelList)",
+      "searchUrls": [
+        "https://wellfound.com/jobs?q=ai+engineer&remote=true",
+        "https://wellfound.com/jobs?q=ml+engineer&remote=true"
+      ],
+      "type": "job_board",
+      "instructions": "Browse startup job listings. Click each job. Apply with profile data and write a short intro message if required.",
+      "enabled": false
+    }
+  ]
+}

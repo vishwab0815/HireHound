@@ -1,0 +1,31 @@
+node_modules/
+dist/
+
+# Personal data - never commit
+config/profile.json
+config/resumes.json
+config/answers.json
+config/perfil.json
+config/curriculos.json
+config/respostas.json
+assets/
+resumes/
+curriculos/
+screenshots/
+logs/
+data/
+
+# Browser session data (cookies, saved logins)
+chrome-profile/
+.playwright-mcp/
+
+# Environment (API keys)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/

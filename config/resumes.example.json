@@ -1,0 +1,24 @@
+{
+  "fallback": {
+    "id": "default",
+    "file": "./assets/resume.pdf",
+    "focus": "General resume",
+    "useWhen": "No other resume fits the job better."
+  },
+  "resumes": [
+    {
+      "id": "ml",
+      "file": "./resumes/ml/resume.pdf",
+      "focus": "Machine learning",
+      "useWhen": "The job is about ML models, data science or deep learning.",
+      "keywords": ["machine learning", "data science", "deep learning", "pytorch", "tensorflow", "nlp"]
+    },
+    {
+      "id": "backend",
+      "file": "./resumes/backend/resume.pdf",
+      "focus": "Python backend",
+      "useWhen": "The job is about APIs, backend services or databases.",
+      "keywords": ["backend", "api", "fastapi", "django", "flask", "microservices"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hirehound",
+  "version": "1.0.0",
+  "description": "AI job-hunting agent that sniffs out matching roles on Internshala, LinkedIn and Naukri and applies from your own Chrome, with an AI model scoring every listing and writing honest, tailored answers",
+  "author": "Vishwanath B",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "result": "tsx src/cli/mark-result.ts",
+    "migrate-config": "tsx scripts/migrate-config.ts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "nodemailer": "^7.0.13",
+    "playwright-core": "^1.56.1",
+    "sql.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.9"
+  }
+}

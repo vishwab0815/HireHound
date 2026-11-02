@@ -1,0 +1,38 @@
+{
+  "name": "Your Full Name",
+  "email": "you@example.com",
+  "phone": "+91 90000 00000",
+  "linkedin": "https://linkedin.com/in/your-profile",
+  "github": "https://github.com/your-username",
+  "portfolio": "https://your-portfolio.dev",
+  "resumePath": "./assets/resume.pdf",
+  "title": "Data & AI Engineer",
+  "yearsOfExperience": 1,
+  "coreStack": ["Python", "LangChain", "FastAPI", "Docker", "PostgreSQL"],
+  "summary": "Two or three lines about what you do and what you've shipped. The bot only ever uses facts written here.",
+  "salaryExpectation": "As per industry standards",
+  "workModes": ["remote", "hybrid", "onsite"],
+  "city": "Bengaluru, India",
+  "locationRule": "If the job is in my city, any work mode is fine. In another city, prefer remote.",
+  "englishLevel": "fluent",
+  "blockedCompanies": [],
+  "blockedTitleTerms": ["senior", "lead"],
+  "availability": "Immediate",
+  "searchKeywords": ["AI Engineer", "ML Engineer", "Data Scientist", "Python Developer"],
+  "experience": [
+    {
+      "company": "Example Company",
+      "role": "AI Engineer",
+      "period": "Jan 2025 - Present",
+      "description": "What you built, with numbers where you have them. Each sentence becomes a resume bullet."
+    }
+  ],
+  "databases": ["PostgreSQL", "MongoDB"],
+  "methodologies": ["Agile", "Scrum"],
+  "extras": {
+    "education": "B.E. Computer Science, Your College (2021 - 2025)",
+    "languages": "English (fluent), Hindi",
+    "certifications": "",
+    "highlights": "The one or two things that make you stand out."
+  }
+}
